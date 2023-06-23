@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów\ImGui">
+      <UniqueIdentifier>{cee04c21-8b2b-4e2b-8669-d3b0118fb071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki zasobów\MinHook">
+      <UniqueIdentifier>{d894052a-6982-4ed0-862e-1b87e2b19d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Renderer">
+      <UniqueIdentifier>{603b3c94-b71c-4a14-bdaa-af9c195330ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Utils">
+      <UniqueIdentifier>{c6cf9ed1-6a27-4a50-8c22-b5d4174fd023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Cheats">
+      <UniqueIdentifier>{2f44f827-dbc7-4436-bc66-28b3b22f3fb4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Pliki zasobów\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>Pliki zasobów\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Pliki zasobów\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>Pliki zasobów\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Pliki zasobów\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>Pliki zasobów\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Pliki zasobów\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\buffer.c">
+      <Filter>Pliki zasobów\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hde32.c">
+      <Filter>Pliki zasobów\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hde64.c">
+      <Filter>Pliki zasobów\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hook.c">
+      <Filter>Pliki zasobów\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\trampoline.c">
+      <Filter>Pliki zasobów\MinHook</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h">
+      <Filter>Pliki źródłowe</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Pliki zasobów\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Pliki zasobów\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>Pliki zasobów\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>Pliki zasobów\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Pliki zasobów\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Pliki zasobów\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Pliki zasobów\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Pliki zasobów\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\buffer.h">
+      <Filter>Pliki zasobów\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde32.h">
+      <Filter>Pliki zasobów\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde64.h">
+      <Filter>Pliki zasobów\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\MinHook.h">
+      <Filter>Pliki zasobów\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\pstdint.h">
+      <Filter>Pliki zasobów\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\table32.h">
+      <Filter>Pliki zasobów\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\table64.h">
+      <Filter>Pliki zasobów\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\trampoline.h">
+      <Filter>Pliki zasobów\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Pliki nagłówkowe\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternScanner.h">
+      <Filter>Pliki nagłówkowe\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Pliki nagłówkowe\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Pliki nagłówkowe\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Routine.h">
+      <Filter>Pliki nagłówkowe\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatVisual.h">
+      <Filter>Pliki nagłówkowe\Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
